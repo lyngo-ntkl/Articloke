@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testng.core.tdd.cuongnvt.TDDTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.771 sec <<< FAILURE!
+getUsersTest(testng.core.tdd.cuongnvt.TDDTest)  Time elapsed: 0.021 sec  <<< FAILURE!
+com.microsoft.sqlserver.jdbc.SQLServerException: The column name email is not valid.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:206)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.findColumn(SQLServerResultSet.java:686)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getString(SQLServerResultSet.java:2442)
+	at Respiratory.User.UserDAO.getUsers(UserDAO.java:122)
+	at testng.core.tdd.cuongnvt.TDDTest.getUsersTest(TDDTest.java:37)
+
