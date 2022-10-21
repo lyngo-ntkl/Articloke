@@ -134,7 +134,31 @@ public class PaperDTO implements Serializable{
     public void setStatus(boolean status) {
         this.status = status;
     }
-    
-    
-    
+
+
+    @Override
+    public String toString() {
+        return "ID=" + ID + ", title=" + title + ", picture=" + picture + ", topic=" + topic + ", description=" + description + ", content=" + content + ", createdDate=" + createdDate + ", modifiedDate=" + modifiedDate + ", username=" + username + ", publishedStatus=" + publishedStatus + ", status=" + status;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        return this.toString().equals(obj.toString());
+    }
+
 }

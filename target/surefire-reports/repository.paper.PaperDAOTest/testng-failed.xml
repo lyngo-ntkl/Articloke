@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [repository.paper.PaperDAOTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="repository.paper.PaperDAOTest">
+        <methods>
+          <include name="testGetPapersKeyword1"/>
+        </methods>
+      </class> <!-- repository.paper.PaperDAOTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [repository.paper.PaperDAOTest] -->

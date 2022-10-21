@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: repository.paper.PaperDAOTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.623 sec <<< FAILURE!
+testGetPapersKeyword1(repository.paper.PaperDAOTest)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: Respiratory.Paper.PaperDTO@6483f5ae != Respiratory.Paper.PaperDTO@b9afc07 expected [Respiratory.Paper.PaperDTO@6483f5ae] but found [Respiratory.Paper.PaperDTO@b9afc07]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:549)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at repository.paper.PaperDAOTest.testGetPapersKeyword1(PaperDAOTest.java:42)
+
