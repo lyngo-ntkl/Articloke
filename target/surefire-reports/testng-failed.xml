@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test name="Command line test(failed)">
     <classes>
@@ -16,3 +17,16 @@
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
+=======
+<suite name="Failed suite [testng.core.tdd.giangvt.DDTTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testng.core.tdd.giangvt.DDTTest">
+        <methods>
+          <include name="getTopics"/>
+        </methods>
+      </class> <!-- testng.core.tdd.giangvt.DDTTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testng.core.tdd.giangvt.DDTTest] -->
+>>>>>>> bd3efcb5444682d657ba9ce56e0771ecd49023b8
