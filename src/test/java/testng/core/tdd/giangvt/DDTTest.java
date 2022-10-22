@@ -42,7 +42,6 @@ public class DDTTest {
     @DataProvider(name = "TopicRepository")
     public Object[][] topicRepo() {
         return new Object[][]{
-            {null},
             {new ArrayList<TopicDTO>() {
                 {
                     add(new TopicDTO("Animal", "Image/Topic/Animal.png"));
