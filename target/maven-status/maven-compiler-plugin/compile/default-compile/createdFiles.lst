@@ -1,4 +1,5 @@
 Respiratory\Article\ArticleDAO.class
+Listener\ContextListener.class
 Controllers\SearchArticle\ForwardHomeTopicSearchServlet.class
 Respiratory\User\UserDAO.class
 Respiratory\Paper\PaperDTO.class
@@ -8,6 +9,7 @@ Respiratory\Topic\Test.class
 Respiratory\Article\SearchArticleUtils$2.class
 Controllers\Authenication\GoogleSignIn\GoogleSupport.class
 Controllers\Profile\ClassifyTopicArticleServlet.class
+Controllers\CreatePaper\StartCreatePaperServlet.class
 Respiratory\Article\SearchArticleUtils.class
 Respiratory\User\UserDTO.class
 Controllers\Authenication\GoogleSignIn\Constant.class
@@ -21,6 +23,7 @@ Support\Test.class
 Controllers\Display\DisplayArticleServlet.class
 Controllers\Authenication\GoogleSignIn\GoogleDTO.class
 Controllers\Init\InitServerServlet.class
+Controllers\CreatePaper\UploadImageServlet.class
 Respiratiory\Reaction\ReactionDAO.class
 Controllers\Authenication\SignUp\ErrorMessage.class
 Controllers\Profile\SwitchPaperArticleServlet.class
